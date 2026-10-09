@@ -1,0 +1,8 @@
+[wsl2]
+memory=16GB
+swap=32GB
+
+[experimental]
+autoMemoryReclaim=gradual
+
+Copy the above into your own .wslconfig file
