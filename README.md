@@ -6,15 +6,17 @@ Author: John Maguire
 ---------------------------------------------------------------------------------------------------------------------------
 
 Requirements:
-Windows OS (Mac users can already natively run most linux-based pipelines)
-At least 16GB RAM (WSL2 will run with half of your total RAM (e.g. 8GB/16GB RAM), leaving the other half for the windows OS to run)
-Windows 10 (2004+) or 11
-Virtualisation enabled in BIOS
-20GB+ available space on C: drive (recommend more for your data)
+
+-Windows OS (Mac users can already natively run most linux-based pipelines)
+-At least 16GB RAM (WSL2 will run with half of your total RAM (e.g. 8GB/16GB RAM), leaving the other half for the windows OS to run)
+-Windows 10 (2004+) or 11
+-Virtualisation enabled in BIOS
+-20GB+ available space on C: drive (recommend more for your data)
 
 Requirements for GPU acceleration:
-NVIDIA brand GPUs with latest graphic drivers installed (visit https://www.nvidia.com/en-us/software/nvidia-app/ to install the NVIDIA app, which then has an option to install drivers within)
-An additional 15 GB of space for GPU packages 
+
+-NVIDIA brand GPUs with latest graphic drivers installed (visit https://www.nvidia.com/en-us/software/nvidia-app/ to install the NVIDIA app, which then has an option to install drivers within)
+-An additional 15 GB of space for GPU packages 
 
 To check if you have a NVIDIA GPU press CTRL+Shift+Esc together to open Task Manager, then click "performance" (it looks a bit like a heartbeat) and scroll down to GPU, it should begin with NVIDIA. Some laptops have two GPUs, check both in this case. 
 
