@@ -35,6 +35,7 @@ Open powershell as administrator (right click windows powershell) and type "wsl 
 If your install fails and you get error code: 0x80370102, it means that virtualisation is likely NOT enabled in BIOS, use this code and you will find guides on how to access your BIOS to turn it on, as I will not be covering BIOS options in this guide.
 
 STEP 2:
+
 Often WSL will come with Ubuntu, if this is the case, skip to step 2.5.
 
 Reopen powershell as administrator then type "wsl.exe --list --online" to get a list of all available distributions of the Linux OS, for almost all purposes Ubuntu is the best to install, now type "wsl.exe --install Ubuntu".
